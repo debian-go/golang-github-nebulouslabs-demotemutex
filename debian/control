@@ -6,7 +6,7 @@ Uploaders: Free Ekanayaka <freee@debian.org>
 Build-Depends: debhelper (>= 9),
                dh-golang,
                golang-go
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/nebulouslabs/demotemutex
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-nebulouslabs-demotemutex.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-nebulouslabs-demotemutex.git
@@ -17,7 +17,6 @@ Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          golang-go
-Description: An extension to RWMutex that allows a writelock to be demoted to a readlock.
- demotelock Package demotemutex provides an extention to sync.Mutex that
- allows a writelock to be demoted to a readlock without releasing control
- to other writelocks.
+Description: Allow an RWMutex writelock to be demoted to a readlock.
+ This package provides an extension to sync.Mutex that allows a writelock to be
+ demoted to a readlock without releasing control to other writelocks.

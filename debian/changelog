@@ -1,5 +1,5 @@
-golang-github-nebulouslabs-demotemutex (0.0~git20151003.0.235395f-1) UNRELEASED; urgency=medium
+golang-github-nebulouslabs-demotemutex (0.0~git20151003.0.235395f-1) unstable; urgency=medium
 
-  * Initial release (Closes: TODO)
+  * Initial release (Closes: #849859)
 
  -- Free Ekanayaka <freee@debian.org>  Sun, 30 Oct 2016 15:06:10 +0000
